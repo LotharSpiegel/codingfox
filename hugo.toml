@@ -1,0 +1,9 @@
+baseURL = 'https://codingfox.dev/'
+languageCode = 'en-us'
+title = 'Coding Fox'
+theme = 'ananke'
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
