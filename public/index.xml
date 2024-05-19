@@ -6,7 +6,14 @@
     <description>Recent content on Coding Fox</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 13:53:03 +0200</lastBuildDate>
     <atom:link href="https://codingfox.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial commit</title>
+      <link>https://codingfox.dev/initialcommit/</link>
+      <pubDate>Sun, 19 May 2024 13:53:03 +0200</pubDate>
+      <guid>https://codingfox.dev/initialcommit/</guid>
+      <description>git init This is my first blog post. git init git add . git commit -m &amp;#34;Initial commit&amp;#34; git push origin main</description>
+    </item>
   </channel>
 </rss>
