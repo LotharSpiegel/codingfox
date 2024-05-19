@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Coding Fox'
 theme = 'ananke'
 
+[params]
+    github = 'https://github.com/LotharSpiegel'
+
 [[menu.main]]
     name = "About"
     identifier = "about"

@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding Fox</title>
-    <link>http://localhost:59619/</link>
+    <link>https://codingfox.dev/</link>
     <description>Recent content on Coding Fox</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 May 2024 13:04:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:59619/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:59619/about/</link>
-      <pubDate>Sat, 18 May 2024 13:04:49 +0200</pubDate>
-      <guid>http://localhost:59619/about/</guid>
-      <description>I am a coffee addicted software developer from Austria who likes foxes (and many other animals).&#xA;Github</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://codingfox.dev/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
