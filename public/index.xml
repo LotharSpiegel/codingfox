@@ -15,5 +15,12 @@
       <guid>https://codingfox.dev/initialcommit/</guid>
       <description>git init This is my first blog post. git init git add . git commit -m &amp;#34;Initial commit&amp;#34; git push origin main</description>
     </item>
+    <item>
+      <title>My favourite coffee places</title>
+      <link>https://codingfox.dev/coffeeplaces/</link>
+      <pubDate>Sun, 19 May 2024 12:57:22 +0200</pubDate>
+      <guid>https://codingfox.dev/coffeeplaces/</guid>
+      <description>A list of my favourite coffee places I&amp;rsquo;ve visited. A highly subjective matter. It goes without saying: if you want to know how good a coffee is, you order an Espresso. If you read a review on Google Maps containing entitled complaints about the coffee shop but displays a photo with a Cappuccino, you can safely ignore this review ;)&#xA;const bestCoffeePlaceInTown = { Budapest: Beyond Within Specialty Kávé Pörkölő Málaga: Next Level Speciality Coffee }; Andalusia Málaga Next Level Speciality Coffee Cute little coffee place.</description>
+    </item>
   </channel>
 </rss>
