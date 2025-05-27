@@ -22,5 +22,12 @@
       <guid>https://codingfox.dev/coffeeplaces/</guid>
       <description>A list of my favourite coffee places I&amp;rsquo;ve visited. A highly subjective matter. It goes without saying: if you want to know how good a coffee is, you order an Espresso. If you read a review on Google Maps containing entitled complaints about the coffee shop but displays a photo with a Cappuccino, you can safely ignore this review ;)&#xA;const bestCoffeePlaceInTown = { Budapest: Beyond Within Specialty Kávé Pörkölő Málaga: Next Level Speciality Coffee }; Andalusia Málaga Next Level Speciality Coffee Cute little coffee place.</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://codingfox.dev/intellij_shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://codingfox.dev/intellij_shortcuts/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;IntelliJ Shortcuts Cheat Sheet&#xD;IntelliJ Shortcuts Cheat Sheet&#xD;Navigation&#xD;Shift + Shift – Suche überall&#xD;Ctrl + N – Klasse suchen&#xD;Ctrl + Shift + N – Datei suchen&#xD;Ctrl + B – Zur Deklaration springen&#xD;Alt + 1 – Projekt-Panel umschalten&#xD;Ctrl + Alt + F7 – Alle Verwendungen anzeigen&#xD;F2 – Zum nächsten Fehler im File springen&#xD;Ctrl + E – Zuletzt geöffnete Dateien&#xD;Bearbeitung&#xD;Ctrl + D – Zeile duplizieren&#xD;Ctrl + Y – Zeile löschen&#xD;Alt + Shift + ↑ / ↓ – Zeile verschieben&#xD;Ctrl + Shift + ↑ / ↓ – Zeilen vertauschen&#xD;Alt + Enter – Fix everything&#xD;Ctrl + Alt + Shift + ↓ – Multicursor: Duplizieren in Zeile darunter&#xD;Ctrl + Alt + Klick – Multicursor an beliebiger Stelle hinzufügen&#xD;Ctrl + W – Auswahl erweitern&#xD;Code-Generierung&#xD;Alt + Insert – Generieren (Konstruktor, Getter, Setter, toString etc.</description>
+    </item>
   </channel>
 </rss>
