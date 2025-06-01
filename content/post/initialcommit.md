@@ -1,6 +1,7 @@
 +++
 title = 'Initial commit'
-date = 2024-05-19T13:53:03+02:00
+description = 'The first post of this blog. Highly unuseful.'
+date = 2024-05-18T12:57:22+02:00
 draft = false
 +++
 ```shell

@@ -1,5 +1,6 @@
 +++
 title = 'IntellijTroubleshooting'
+description = 'A collection of solutions to some annoying problems in IntelliJ.'
 date = 2025-02-10T09:36:35+01:00
 draft = true
 wip = true

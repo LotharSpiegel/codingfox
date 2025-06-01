@@ -1,6 +1,7 @@
 +++
 title = 'My favourite coffee places'
-date = 2024-05-19T12:57:22+02:00
+description = 'A list of my favourite coffee places I have visited. A highly subjective matter.'
+date = 2024-05-19T13:53:03+02:00
 draft = false
 wip = true
 +++
