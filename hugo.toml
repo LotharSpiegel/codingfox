@@ -4,7 +4,7 @@ title = 'Coding Fox'
 theme = 'ananke'
 
 [params]
-    custom_css = ["css/syntax.css", "css/badges.css"]
+    custom_css = ["css/syntax.css", "css/badges.css", "css/copy-code-button.css"]
     custom_js = ["js/copy-code-button.js"]
     github = 'https://github.com/LotharSpiegel'
     mainSections = ["post"]

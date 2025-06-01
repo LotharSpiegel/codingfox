@@ -1,0 +1,11 @@
+{{ with .Site.Params.custom_css }}
+{{ range . }}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{ end }}
+{{ end }}
+
+{{ with .Site.Params.custom_js }}
+{{ range . }}
+<script src="{{ . | relURL }}" defer></script>
+{{ end }}
+{{ end }}
