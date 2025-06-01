@@ -1,7 +1,7 @@
 baseURL = 'https://codingfox.dev/'
 languageCode = 'en-us'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 title = 'Coding Fox'
+theme = 'ananke'
 
 [params]
     custom_css = ["css/syntax.css", "css/badges.css"]
