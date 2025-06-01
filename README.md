@@ -1,9 +1,6 @@
 # Coding Fox
 
-The source code repository of my blog, powered by [Hugo](https://gohugo.io/).
-
-Original domain: tba
-working domain: https://fox-blog-pnjtg.ondigitalocean.app/
+The source code repository of my blog https://www.codingfox.dev/, powered by [Hugo](https://gohugo.io/).
 
 ## New blog entry
 New content page: `hugo new contents content/myNewPage.md`.
