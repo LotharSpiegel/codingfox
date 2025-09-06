@@ -13,7 +13,10 @@ you can safely ignore this review ;)
 
 ```ts
 const bestCoffeePlaceInTown = {
-    Budapest: Beyond Within Specialty Kávé Pörkölő
+    Brno: Buchta B,
+    Budapest: Beyond Within Specialty Kávé Pörkölő,
+    Finland: Rams Roasters,
+    Hamburg: Steff's wild roots,
     Málaga: Next Level Speciality Coffee
 };
 ```
@@ -24,7 +27,14 @@ const bestCoffeePlaceInTown = {
 #### [Next Level Speciality Coffee](https://www.google.com/maps/place/Next+Level+Specialty+Coffee/@36.7177751,-4.4241464,16z/data=!3m1!4b1!4m6!3m5!1s0xd72f75b32420fdf:0x3696e7a76b550c70!8m2!3d36.7177751!4d-4.4241464!16s%2Fg%2F11fvk304_g?authuser=0&hl=en&entry=ttu)
 Cute little coffee place. Always well visited, most regulars just get a coffee to go. I like the "back to the basics" style. If you wanna have brunch with your huge group of besties and talk for 3 hours while drinking a Flat white with soy milk, go somewhere else ;) 
 
-Recommended order: Salmon avocado bread (much tastier than in your regular hipster café) with espresso. They serve one of the best in europe in my opinion.
+Recommended order: Salmon avocado bread (much tastier than in your regular hipster café) with espresso. They serve one of the best espressos in europe in my opinion.
+
+## Finland
+### Helsinki
+
+#### [Rams Roasters](https://www.google.com/maps/place/Rams+Roasters/@60.15809,24.9465221,17z/data=!3m1!4b1!4m6!3m5!1s0x46920b33b8f7ceb7:0xe5b2215bfeea8def!8m2!3d60.1580874!4d24.9491024!16s%2Fg%2F11j4ryzyn1?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D)
+The best Korvapuusti (cinnamon rolls) in the world. Nothing beats the taste of caramelized sugar, cinnamon and cardamom together with very good espresso. And they are super friendly!
+
 
 ## Hungary
 ### Budapest
