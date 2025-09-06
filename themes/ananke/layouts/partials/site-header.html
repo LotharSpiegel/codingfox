@@ -7,7 +7,7 @@
     <div class="{{ $cover_dimming_class }}">
       {{ partials.Include "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">F
           {{ .Title | compare.Default .Site.Title }}
         </h1>
         {{ with .Params.description }}
@@ -20,10 +20,10 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | compare.Default "bg-black" }}">
+    <div class="pb2-m pb4-l {{ .Site.Params.background_color_class | compare.Default "bg-black" }}">
       {{ partials.Include "site-navigation.html" . }}
       <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 mt0 lh-title">
           {{ .Title | compare.Default .Site.Title }}
         </h1>
         {{ with .Params.description }}
