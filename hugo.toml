@@ -8,6 +8,11 @@ theme = 'ananke'
     custom_js = ["js/copy-code-button.js"]
     github = 'https://github.com/LotharSpiegel'
     mainSections = ["post"]
+    # List of posts to feature in the footer
+    footerPosts = [
+        "post/coffeeplaces.md",
+        "post/git_cheat_sheet.html"
+    ]
 
 [[menu.main]]
     name = "About"
