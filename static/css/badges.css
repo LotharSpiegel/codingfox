@@ -1,6 +1,5 @@
 .badge {
     display: inline-block;
-    background-color: #ff9800;
     color: #fff;
     padding: 0.1em 0.3em;
     border-radius: 3px;
@@ -42,4 +41,18 @@
 .badge-draft {
     background-color: #ff9800;
     color: #fff;
+}
+
+.badge-react {
+    color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1em 0.2em;
+}
+
+.badge-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
 }

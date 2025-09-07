@@ -1,3 +1,10 @@
+
+{{ if and .Params.tags (in .Params.tags "react") }}
+<span class="badge badge-react" data-tooltip="React">
+  <img src="/images/react-logo.svg" alt="React" class="badge-icon" width="16" height="16">
+</span>
+{{ end }}
+
 {{ if .Params.wip }}
 <span class="badge badge-wip" data-tooltip="Work in Progress">WIP</span>
 {{ end }}
