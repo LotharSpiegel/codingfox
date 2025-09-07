@@ -1,10 +1,10 @@
-.badge-wip {
+.badge {
     display: inline-block;
     background-color: #ff9800;
     color: #fff;
     padding: 0.1em 0.3em;
     border-radius: 3px;
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 0.5em;
@@ -12,7 +12,7 @@
     cursor: help; /* Changes cursor to indicate more info */
 }
 
-.badge-wip[data-tooltip]:hover::after {
+.badge[data-tooltip]:hover::after {
     content: attr(data-tooltip);
     position: absolute;
     bottom: 120%; /* Positions tooltip above the badge */
@@ -30,6 +30,16 @@
     transition: opacity 0.2s;
 }
 
-.badge-wip[data-tooltip]:hover::after {
+.badge[data-tooltip]:hover::after {
     opacity: 1;
+}
+
+.badge-wip {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.badge-draft {
+    background-color: #ff9800;
+    color: #fff;
 }

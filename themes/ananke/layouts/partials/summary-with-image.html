@@ -15,7 +15,7 @@ More info here: https://github.com/theNewDynamic/gohugo-theme-ananke/releases/ta
       {{ end }}
       <div class="blah w-100{{ if $featured_image }} w-60-ns {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr3-ns" "pl3-ns" }}{{ end }}">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="{{.RelPermalink}}" class="color-inherit dim link">
+          <a href="{{.RelPermalink}}" class="color-inherit dim link flex align-items">
             {{ .Title }}
             </a>
         </h1>

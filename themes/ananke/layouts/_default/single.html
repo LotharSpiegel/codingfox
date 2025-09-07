@@ -16,8 +16,9 @@
         {{ .CurrentSection.Title }}
       </aside>
       {{- partials.IncludeCached "social/share.html" . . -}}
-      <h1 class="f1 athelas mt3 mb1">
+      <h1 class="f1 athelas mt3 mb1 flex items-center">
         {{- .Title -}}
+        {{- partials.Include "badges.html" . -}}
       </h1>
       {{ with .Params.author | compare.Default .Site.Params.author }}
       <p class="tracked">
