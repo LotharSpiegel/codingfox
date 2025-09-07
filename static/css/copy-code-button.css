@@ -1,38 +1,61 @@
 .copy-code-button {
-    color: #272822;
-    background-color: #FFF;
-    border-color: #272822;
-    border: 2px solid;
-    border-radius: 3px 3px 0px 0px;
-
-    /* right-align */
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-
-    margin-bottom: -2px;
-    padding: 3px 8px;
-    font-size: 0.8em;
+    color: #7d7a7aff;
+    background-color: rgba(255, 255, 255, 0.1); /* Add subtle background */
+    border: none;
+    border-radius: 4px;
+    
+    /* Position in top-right corner inside the code block */
+    position: absolute;
+    top: 0.3em;
+    right: 0.3em;
+    z-index: 2;
+    
+    padding: 3px;
+    font-size: 0.7em;
+    opacity: 0.8; /* Make visible by default */
+    transition: opacity 0.2s, background-color 0.2s;
+    line-height: 1;
 }
 
 .copy-code-button:hover {
     cursor: pointer;
-    background-color: #F2F2F2;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
 }
 
 .copy-code-button:focus {
     /* Avoid an ugly focus outline on click in Chrome,
        but darken the button for accessibility.
        See https://stackoverflow.com/a/25298082/1481479 */
-    background-color: #E6E6E6;
+    background-color: rgba(255, 255, 255, 0.3);
     outline: 0;
+    opacity: 1;
 }
 
 .copy-code-button:active {
-    background-color: #D9D9D9;
+    background-color: rgba(255, 255, 255, 0.4);
 }
+
+.copy-code-button.success {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.2);
+    opacity: 1 !important;
+}
+
+.copy-code-button.error {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.2);
+    opacity: 1 !important;
+}
+
+.highlight {
+    position: relative;
+}
+
+/* Remove this rule since buttons are now visible by default */
 
 .highlight pre {
     /* Avoid pushing up the copy buttons. */
     margin: 0;
+    /* Remove the padding-top to save vertical space */
 }
