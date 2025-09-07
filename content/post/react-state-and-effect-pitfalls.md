@@ -110,10 +110,10 @@ The reason why mutating state in `useEffect` causes re-renders comes from the wa
 2. Then React "commits" these changes to the DOM.
 3. After that, React runs the effects. Here's the problem: if the effect immediately updates state, React will restart this whole cycle, leading to many unnecessary renders.
 
-This means you should avoid mutating state inside an effect, and in particular, not mutate state inside an effect whose dependency array contains that same state.
+This means you should avoid mutating state inside an effect, and in particular, not mutate state inside an effect whose dependency array contains state variables.
 
 
-There are many more helpful examples on the official [React documentation page](https://react.dev/learn/you-might-not-need-an-effect).
+There are many more good examples on [react.dev](https://react.dev/learn/you-might-not-need-an-effect).
 
 
 
