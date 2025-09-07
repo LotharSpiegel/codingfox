@@ -3,7 +3,7 @@
 The source code repository of my blog https://www.codingfox.dev/, powered by [Hugo](https://gohugo.io/).
 
 ## New blog entry
-New content page: `hugo new contents content/myNewPage.md`.
+New content page: `hugo new content content/myNewPage.md`.
 
 Start development server with `hugo server -D`.
 
