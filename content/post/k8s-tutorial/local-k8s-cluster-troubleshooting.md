@@ -1,7 +1,7 @@
 +++
 title = 'Kubernetes Tutorial: Troubleshooting Guide'
 date = 2025-10-19T12:00:00+01:00
-draft = true
+draft = false
 wip = true
 tags = ['K8s', 'Kubernetes', 'Docker', 'Windows', 'Tutorial', 'DevOps', 'Troubleshooting']
 series = ['Kubernetes Tutorial']
