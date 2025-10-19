@@ -1,10 +1,10 @@
 +++
 title = 'Kubernetes Tutorial Chapter 1: Local Cluster Setup with Docker Desktop on Windows'
 date = 2025-10-19T12:00:00+01:00
-draft = true
-wip = false
+draft = false
+wip = true
 tags = ['K8s', 'Kubernetes', 'Docker', 'DevOps', 'Tutorial']
-series = ['Kubernetes Tutorial']
+series = ['Kubernetes Tutoryial']
 chapter = 1
 +++
 
