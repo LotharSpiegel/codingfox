@@ -108,7 +108,7 @@ kubectl cluster-info
 
 ## Troubleshooting
 
-For common issues and their solutions, please refer to our [Kubernetes Troubleshooting Guide]({{< ref "localK8sCluster-troubleshooting.md" >}}).
+For common issues and their solutions, please refer to our [Kubernetes Troubleshooting Guide]({{< ref "k8s-tutorial/localK8sCluster-troubleshooting.md" >}}).
 
 ## Creating a Simple React App
 
