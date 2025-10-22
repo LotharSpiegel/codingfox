@@ -241,6 +241,32 @@ Now let's deploy our containerized Vite-based React app to the local Kubernetes 
    ```
 
    > **What is a Service?** A Service is an abstraction that defines a logical set of Pods and a policy to access them. Our service will make the React app accessible from outside the cluster.
+   
+   When you run `kubectl get services`, you'll see output similar to:
+   ```
+   NAME                TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
+   kubernetes          ClusterIP   10.96.0.1        <none>        443/TCP        301d
+   react-app-service   NodePort    10.106.227.148   <none>        80:30080/TCP   3d5h
+   ```
+   
+   > **Understanding the output:**
+   > - **NAME**: The name of the service. The "kubernetes" service is created by default and provides access to the Kubernetes API server.
+   > - **TYPE**: The service type, which determines how the service is exposed:
+   >   - **ClusterIP**: Exposes the service on an internal IP within the cluster (default). Only reachable from within the cluster.
+   >   - **NodePort**: Exposes the service on each node's IP at a static port. Accessible from outside the cluster using `<NodeIP>:<NodePort>`.
+   >   - **LoadBalancer**: Exposes the service externally using a cloud provider's load balancer.
+   >   - **ExternalName**: Maps the service to a DNS name.
+   > - **CLUSTER-IP**: The internal IP address assigned to the service within the cluster.
+   > - **EXTERNAL-IP**: The external IP address (if any) where the service is exposed. Shows `<none>` for ClusterIP and NodePort types.
+   > - **PORT(S)**: The port mappings. For our NodePort service, it shows `80:30080/TCP`, meaning:
+   >   - Internal port 80 (the service port)
+   >   - External port 30080 (the nodePort)
+   >   - Using TCP protocol
+   > - **AGE**: How long the service has been running.
+   >
+   > In our example, we have two services:
+   > 1. The default "kubernetes" service (ClusterIP type) that provides access to the API server on port 443.
+   > 2. Our "react-app-service" (NodePort type) that exposes our React application on port 30080 externally, mapping to port 80 internally.
 
 3. **Apply the manifests to deploy the application**
    ```powershell
