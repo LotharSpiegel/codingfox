@@ -241,7 +241,7 @@ This structure uses Kustomize, which is natively supported by both kubectl and A
 ### Creating the Repository
 
 1. Create a new Git repository (e.g., on GitHub, GitLab, or Bitbucket)
-   > **Note**: For this tutorial, you can use the example repository at [https://github.com/LotharSpiegel/k8s-tutorial-gitops](https://github.com/LotharSpiegel/k8s-tutorial-gitops) which contains all the manifests we'll be working with.
+   > **Note**: For this tutorial, you can use the example repository at [k8s-tutorial-gitops](https://github.com/LotharSpiegel/k8s-tutorial-gitops) which contains all the manifests we'll be working with.
 2. Clone the repository to your local machine
 3. Create the directory structure as shown above
 
