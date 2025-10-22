@@ -241,6 +241,7 @@ This structure uses Kustomize, which is natively supported by both kubectl and A
 ### Creating the Repository
 
 1. Create a new Git repository (e.g., on GitHub, GitLab, or Bitbucket)
+   > **Note**: For this tutorial, you can use the example repository at [https://github.com/LotharSpiegel/k8s-tutorial-gitops](https://github.com/LotharSpiegel/k8s-tutorial-gitops) which contains all the manifests we'll be working with.
 2. Clone the repository to your local machine
 3. Create the directory structure as shown above
 
@@ -333,7 +334,7 @@ There are two ways to create an application in ArgoCD: through the UI or using a
    - Project: `default`
    - Sync Policy: `Automatic`
    - Repository URL: Your Git repository URL
-   - Path: `apps/react-app/base`
+   - Path: `chapter2/apps/react-app/base`
    - Cluster URL: `https://kubernetes.default.svc` (for in-cluster deployment)
    - Namespace: `default`
 5. Click "Create"
