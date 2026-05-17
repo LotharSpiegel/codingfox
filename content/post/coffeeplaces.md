@@ -17,7 +17,8 @@ const bestCoffeePlaceInTown = {
     Budapest: Beyond Within Specialty Kávé Pörkölő,
     Finland: Rams Roasters,
     Hamburg: Steff's wild roots,
-    Málaga: Next Level Speciality Coffee
+    Málaga: Next Level Speciality Coffee,
+    Prague: The Miners Coffee Roastery,
 };
 ```
 
