@@ -1,0 +1,15 @@
+{{ with .Site.Params.custom_css }}
+{{ range . }}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{ end }}
+{{ end }}
+
+{{ with .Site.Params.custom_js }}
+{{ range . }}
+<script src="{{ . | relURL }}" defer></script>
+{{ end }}
+{{ end }}
+
+{{ if and hugo.IsProduction .Site.Params.goatcounter_code }}
+<script data-goatcounter="https://{{ .Site.Params.goatcounter_code }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{{ end }}

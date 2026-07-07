@@ -6,6 +6,7 @@ theme = 'ananke'
 [params]
     custom_css = ["css/syntax.css", "css/badges.css", "css/copy-code-button.css"]
     custom_js = ["js/copy-code-button.js"]
+    goatcounter_code = 'codingfox'
     github = 'https://github.com/LotharSpiegel'
     mainSections = ["post"]
     # List of posts to feature in the footer
