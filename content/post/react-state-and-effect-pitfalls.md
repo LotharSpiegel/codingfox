@@ -121,3 +121,5 @@ There are many more good examples on [react.dev](https://react.dev/learn/you-mig
 - [Choosing the State Structure](https://react.dev/learn/choosing-the-state-structure)
 - [Thinking in React](https://react.dev/learn/thinking-in-react)
 - [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect)
+- [Deriving Client State from Server State](https://tkdodo.eu/blog/deriving-client-state-from-server-state)
+- [Don't Sync State. Derive It!](https://kentcdodds.com/blog/dont-sync-state-derive-it)
