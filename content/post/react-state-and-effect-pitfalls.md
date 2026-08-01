@@ -2,13 +2,12 @@
 title = 'React State and Effect Pitfalls'
 date = 2025-09-07T12:48:12+02:00
 draft = false
-wip = true
 tags = ['react', 'javascript', 'frontend']
 +++
 
 React’s hooks (in particular `useState` and `useEffect`) are deceptively simple. At first glance, it feels like: state goes into useState, side effects go into useEffect. But in real-world apps, things get messy quickly: bugs from re-renders, race conditions, and code that’s harder to reason about than it should be.
 
-Let’s break down when to use state, when not to, why overusing useEffect is harmful, and how useReducer can often make your code cleaner.
+Let’s break down when to use state, when not to, and why overusing useEffect is harmful.
 
 ## 1. What belongs in State?
 
